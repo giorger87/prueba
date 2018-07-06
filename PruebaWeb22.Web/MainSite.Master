@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainSite.master.cs" Inherits="PruebaWeb22.Web.MainSite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link href="js/jquery.dataTables.min.css" rel="stylesheet" />
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+    <link href="bootstrap-4.1.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/validate.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 728px;
+        }
+
+        .auto-style2 {
+            width: 804px;
+        }
+        .auto-style3 {
+            width: 804px;
+            height: 45px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="capaPrincipal">
+            <table class="tablaPrincipal">
+                <tr>
+                    <td class="auto-style2">
+                        <table class="tablaPrincipal" border="0">
+                            <tr>
+
+                                <td class="textoGrande textoNegrita" style="width: 800px; text-align: center; vertical-align: top; padding-top: 15px;">Control de Clientes Letrigraf
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top: 25px; padding-bottom: 25px; padding-left: 25px;" class="auto-style3">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td style="padding-top: 25px; padding-bottom: 25px; padding-left: 25px;" class="auto-style3">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left" class="auto-style2">
+                        <table>
+                             <tr>
+                            <td class="auto-style1" style="text-align:left">
+                                <img src="/images/luca-5.jpg" style="height: 60px;" />&nbsp;&nbsp;&nbsp;
+                                Giorger Solutions</td>
+                        </tr>
+                        </table>
+
+                       
+            </table>
+
+        </div>
+    </form>
+</body>
+</html>
