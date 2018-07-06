@@ -1,0 +1,63 @@
+﻿body {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 11pt; 
+    color: black;
+}
+
+.textoGrande {
+    font-size: 13pt !important;
+
+}
+
+.textoNegrita{
+    font-weight: bold !important;
+    
+}
+
+.linkPie{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.capaPrincipal{
+    width: 1010px;
+    position:absolute;
+    left: 50%;
+    margin-left: -505px;
+    top: 20px;
+}
+
+.tablaPrincipal{
+    width:100%;
+
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+img{
+    border-style: none;
+}
+table{
+    boder:none;
+    border-style:none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border-collapse:collapse;
+
+}
+
+.td{
+    padding: 0 0 0 0;
+}
+
+.celdaPropiedad{
+    width: 120px;
+    text-align: right;
+    padding-top: 8px;
+    font-size: 11pt !important;
+}
